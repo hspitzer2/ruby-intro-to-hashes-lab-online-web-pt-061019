@@ -32,7 +32,11 @@ def monopoly_with_third_tier
 	  :pieces => 4,
 	  :names =>
 		{
-	   :rent_in_dollars =>
+				:reading_railroad => {},
+		    :pennsylvania_railroad => {},
+		    :b_and_o_railroad => {},
+		    :shortline => {}
+	     },
 		 		{
 	        :one_piece_owned => 25,
 	        :two_pieces_owned => 50,
@@ -54,9 +58,9 @@ def monopoly_with_fourth_tier
 	    :names =>
 			{
 				:reading_railroad => {"mortgage_value" => "$100"},
-		   :pennsylvania_railroad => {"mortgage_value" => "$200"},
-		   :b_and_o_railroad => {"mortgage_value" => "$400"},
-		   :shortline => {"mortgage_value" => "$800"}
+		    :pennsylvania_railroad => {"mortgage_value" => "$200"},
+		    :b_and_o_railroad => {"mortgage_value" => "$400"},
+		    :shortline => {"mortgage_value" => "$800"}
 	     },
 	    :rent_in_dollars =>
 		  {
