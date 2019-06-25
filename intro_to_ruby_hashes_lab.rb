@@ -7,7 +7,7 @@ def actor
 end
 
 def monopoly
-	monopoly = 
+	monopoly =
 	 {
 		:railroads => {}
    }
@@ -15,9 +15,9 @@ end
 
 
 def monopoly_with_second_tier
-	monopoly = 
+	monopoly =
 	 {
-		:railroads => 
+		:railroads =>
 		{
 			:pieces => 4,
 		 }
@@ -26,13 +26,13 @@ end
 
 
 def monopoly_with_third_tier
-	monopoly = 
+	monopoly =
 	 {
 	  :railroads => {
 	  :pieces => 4,
-	  :names => 
+	  :names =>
 		{
-	   :rent_in_dollars => 
+	   :rent_in_dollars =>
 		 		{
 	        :one_piece_owned => 25,
 	        :two_pieces_owned => 50,
@@ -48,17 +48,17 @@ end
 
 def monopoly_with_fourth_tier
 	 monopoly = {
-	   :railroads => 
+	   :railroads =>
 			{
 	    :pieces => 4,
-	    :names => 
+	    :names =>
 			{
 				:reading_railroad => {"mortgage_value" => "$100"},
 		   :pennsylvania_railroad => {"mortgage_value" => "$200"},
 		   :b_and_o_railroad => {"mortgage_value" => "$400"},
 		   :shortline => {"mortgage_value" => "$800"}
 	     },
-	    :rent_in_dollars => 
+	    :rent_in_dollars =>
 		  {
 				:one_piece_owned => 25,
 		    :two_pieces_owned => 50,
